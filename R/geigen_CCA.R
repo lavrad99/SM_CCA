@@ -3,6 +3,7 @@ library('geigen')
 
 source('./bool_to_inds.R') #Change '.' to folder where file is kept if necessary
 source('./inds_to_bool.R') #Change '.' to folder where file is kept if necessary
+source('./euc_length.R') #Change '.' to folder where file is kept if necessary
 
 geigen_CCA <- function(Sigma , x_inds , y_inds, b_inds = NA, n_corrs = 1){
   
