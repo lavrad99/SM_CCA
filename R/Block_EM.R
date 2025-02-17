@@ -1,3 +1,8 @@
+library('tidyverse')
+library('mice')
+
+source('./euc_length.R') #Change '.' to folder where file is kept if necessary
+
 Block_EM <- function(s, X_miss, mu_init = apply(X=X_miss,MARGIN = 2,FUN = function(x){return(mean(x,na.rm=T))}),
                      Sigma_init = diag(apply(X=X_miss,MARGIN = 2,FUN = function(x){return(var(x,na.rm=T))})),
                      maxiter = 100 , tol = 0.00001, verbose = 0){
