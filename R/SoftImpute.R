@@ -1,5 +1,7 @@
 library('softImpute')
 
+source('./elbow_rule.R') #Change '.' to folder where file is kept if necessary
+
 SoftImpute <- function(X_miss , debias = FALSE){
   
   # Function for SoftImpute
