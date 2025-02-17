@@ -1,3 +1,5 @@
+library('softImpute')
+
 SoftImpute <- function(X_miss , debias = FALSE){
   
   # Function for SoftImpute
