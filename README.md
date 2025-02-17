@@ -1,7 +1,7 @@
 # SM_CCA
 Repository accompanying the paper "Canonical Correlation Analysis on Data With Structured Missingness" by Radosavljević et. al. (2025)
 
-The file ```SM_CCA.R``` contains all R functions necessary for replicating all CCA estimations in the paper. The following are the most important functions:
+The folder ```R``` contains all R functions necessary for replicating all CCA estimations in the paper. The following are the most important functions:
 
 * ```geigen_CCA.R```, which performs CCA via the generalised eigenvalue problem.
 
