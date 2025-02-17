@@ -2,7 +2,7 @@ library('tidyverse')
 library('mice')
 
 source('./smart_pred_mat.R') #Change '.' to folder where file is kept if necessary
-
+source('./geigen_CCA.R') #Change '.' to folder where file is kept if necessary
 
 MICE_CCA <- function(D_miss,x_inds,y_inds,n_corrs = 1,n_sets = 10, n_preds = 20,
                      MICE_method = 'norm', maxit = 5, verbose = F){
