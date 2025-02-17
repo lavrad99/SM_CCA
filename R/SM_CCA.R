@@ -6,6 +6,7 @@ source('./geigen_CCA.R') #Change '.' to folder where file is kept if necessary
 source('./Block_EM.R') #Change '.' to folder where file is kept if necessary
 source('./SoftImpute.R') #Change '.' to folder where file is kept if necessary
 source('./deconf.R') #Change '.' to folder where file is kept if necessary
+source('./mat_summary.R') #Change '.' to folder where file is kept if necessary
 
 SM_CCA <- function(X_list , Y_list, B, pre_deconf = F , n_corrs = 1,
                    method = 'MICE', n_sets = 10, n_preds = 20, maxit = 5,
